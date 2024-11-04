@@ -55,7 +55,7 @@ Follow the instructions. The installer
 - will ask you for your keys
 - setup dirs & start installs
 - will start the local `cofounder/api` builder and server
-- will open the web dashboard where you can create new projects (at `http://localhost:667` ) 🎉
+- will open the web dashboard where you can create new projects (at `http://localhost:7799` ) 🎉
 
 ```
 note :
@@ -103,7 +103,7 @@ You can (re)start the `local cofounder API` running the following command from `
 npm run start
 ```
 
-The dashboard will open in `http://localhost:667`
+The dashboard will open in `http://localhost:7799`
 
 
 - note: You can also generate new apps from the same env, without the the dashboard, by running, from `./cofounder/api`, one of these commands

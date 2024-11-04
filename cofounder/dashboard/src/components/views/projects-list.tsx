@@ -34,7 +34,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 const ProjectsList = () => {
-	const SERVER_LOCAL_URL = "http://localhost:667/api";
+	const SERVER_LOCAL_URL = "http://localhost:7799/api";
 	const [projects, setProjects] = useState([]);
 	const [slugifiedId, setSlugifiedId] = useState("");
 	const navigate = useNavigate();

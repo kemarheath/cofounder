@@ -263,7 +263,7 @@ export default memo(({ data, isConnectable }) => {
 									src={
 										node_extra[selectedVersion]?.render?.image?.url?.length
 											? node_extra[selectedVersion]?.render?.image?.url
-											: `http://localhost:667/storage/${node_extra[selectedVersion]?.render?.image?.local.split("/storage/")[1]}`
+											: `http://localhost:7799/storage/${node_extra[selectedVersion]?.render?.image?.local.split("/storage/")[1]}`
 									}
 								></img>
 							</div>
